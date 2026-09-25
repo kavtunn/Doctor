@@ -770,11 +770,10 @@ h2 {
   content: "";
   position: absolute;
   left: 0;
-  top: 14px;
-  width: 14px;
-  height: 14px;
-  background: #279a59;
-  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  top: 12px;
+  width: 11px;
+  height: 13px;
+  background: url("assets/img/Polygon1.svg") center / contain no-repeat;
 }
 
 /* Advantages */
