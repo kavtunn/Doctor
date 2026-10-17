@@ -875,7 +875,7 @@ summary.menu-btn::marker {
 }
 .contacts {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+  grid-template-columns: 1fr 1fr;
   min-height: 582px;
   background: #272727;
 }
@@ -897,10 +897,13 @@ summary.menu-btn::marker {
   color: #ffffff;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 .contacts-details {
   width: 100%;
-  padding: 60px 48px 60px max(40px, calc((100vw - 1140px) / 2 + 20px));
+  max-width: 570px;
+  padding: 60px 48px 60px 20px;
+  box-sizing: border-box;
 }
 .contacts-info h2 {
   color: #ffffff;
